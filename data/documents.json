@@ -1,0 +1,96 @@
+{
+  "category": "민원 서류 발급",
+  "procedures": [
+    {
+      "id": "resident-register",
+      "title": "주민등록등본 / 초본 발급",
+      "tag": "온라인가능",
+      "description": "현재 주소지와 세대원 정보를 확인하는 공식 서류. 등본(세대 전체), 초본(개인 이력).",
+      "documents": [
+        { "name": "본인 인증 수단 (공동인증서·간편인증·휴대폰)", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "정부24 (온라인 무료 발급)", "link": "https://www.gov.kr" },
+        { "name": "주민센터 방문 발급 (수수료 400원)", "link": null },
+        { "name": "무인발급기 (주민센터·법원 등)", "link": null }
+      ],
+      "notes": "정부24에서 PDF 무료 출력 가능. 타인 발급 시 위임장·위임인 신분증 사본 필요."
+    },
+    {
+      "id": "family-relation",
+      "title": "가족관계증명서 발급",
+      "tag": "온라인가능",
+      "description": "본인과 부모·배우자·자녀의 가족관계를 증명하는 공식 서류.",
+      "documents": [
+        { "name": "본인 인증 수단", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "정부24 (온라인 발급)", "link": "https://www.gov.kr" },
+        { "name": "대법원 전자가족관계등록시스템", "link": "https://efamily.scourt.go.kr" },
+        { "name": "주민센터 방문 발급", "link": null },
+        { "name": "무인발급기", "link": null }
+      ],
+      "notes": "일반·상세·특정증명서 중 용도에 맞는 종류 선택. 타인 발급은 직계혈족·배우자만 가능."
+    },
+    {
+      "id": "seal-certificate",
+      "title": "인감증명서 발급",
+      "tag": "방문필수",
+      "description": "부동산 거래·금융거래 등 중요 계약 시 본인 인감 도장을 공식 증명하는 서류.",
+      "documents": [
+        { "name": "신분증", "source": "본인 보관", "link": null },
+        { "name": "인감 도장 (등록된 것)", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "주민센터 방문 발급 (본인만 가능)", "link": null }
+      ],
+      "notes": "반드시 본인이 직접 방문해야 함 (대리 불가). 수수료 600원. 인감 미등록 시 당일 등록 후 발급 가능. 본인서명사실확인서로 대체 가능한 경우 있음."
+    },
+    {
+      "id": "health-insurance-confirm",
+      "title": "건강보험료 납부확인서 발급",
+      "tag": "온라인가능",
+      "description": "건강보험료 납부 내역을 증명하는 서류. 각종 지원금 신청·대출 시 요구.",
+      "documents": [
+        { "name": "공동인증서 또는 간편인증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "국민건강보험공단 홈페이지", "link": "https://www.nhis.or.kr" },
+        { "name": "정부24 (온라인 발급)", "link": "https://www.gov.kr" },
+        { "name": "국민건강보험 지사 방문", "link": null }
+      ],
+      "notes": "The건강보험 앱에서도 발급 가능. 직장가입자는 회사 경유 없이 본인 직접 발급 가능."
+    },
+    {
+      "id": "income-certificate",
+      "title": "소득금액증명원 발급",
+      "tag": "온라인가능",
+      "description": "연간 소득금액을 국세청이 공식 증명하는 서류. 대출·지원금 신청 시 자주 요구됨.",
+      "documents": [
+        { "name": "공동인증서 또는 간편인증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 발급)", "link": "https://www.hometax.go.kr" },
+        { "name": "정부24 (온라인 발급)", "link": "https://www.gov.kr" },
+        { "name": "세무서 방문 발급", "link": null },
+        { "name": "무인발급기 (세무서 내)", "link": null }
+      ],
+      "notes": "전년도 소득 기준 발급. 신고 소득이 없으면 '소득없음' 증명 발급. 프리랜서·사업자도 신고 후 발급 가능."
+    },
+    {
+      "id": "business-registration-cert",
+      "title": "사업자등록증명 발급",
+      "tag": "온라인가능",
+      "description": "사업자 등록 여부와 업종·사업장 정보를 국세청이 증명하는 서류.",
+      "documents": [
+        { "name": "공동인증서 또는 간편인증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 발급)", "link": "https://www.hometax.go.kr" },
+        { "name": "세무서 방문 발급", "link": null },
+        { "name": "무인발급기", "link": null }
+      ],
+      "notes": "사업자등록증 원본과 다름. 사업자등록증명은 현재 사업 유지 여부를 공식 확인하는 서류."
+    }
+  ]
+}

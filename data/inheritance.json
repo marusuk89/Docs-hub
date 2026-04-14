@@ -1,0 +1,75 @@
+{
+  "category": "상속 / 증여",
+  "procedures": [
+    {
+      "id": "inheritance-onestop",
+      "title": "안심상속 원스톱 서비스",
+      "tag": "기한있음",
+      "description": "사망자의 금융재산·토지·건물·자동차·세금 등 재산과 채무를 한 번에 조회하는 서비스.",
+      "documents": [
+        { "name": "사망진단서 또는 기본증명서 (사망 기재)", "source": "병원 / 정부24", "link": "https://www.gov.kr" },
+        { "name": "신청인 신분증", "source": "본인 보관", "link": null },
+        { "name": "가족관계증명서 (상속인 확인용)", "source": "정부24", "link": "https://www.gov.kr" }
+      ],
+      "apply": [
+        { "name": "정부24 (온라인 신청)", "link": "https://www.gov.kr" },
+        { "name": "주민센터 방문 신청", "link": null }
+      ],
+      "notes": "사망일이 속한 달의 말일로부터 6개월 이내 신청. 직계혈족·배우자·형제자매 신청 가능. 결과는 문자·우편으로 수령."
+    },
+    {
+      "id": "inheritance-waiver",
+      "title": "상속포기 / 한정승인 신청",
+      "tag": "기한있음",
+      "description": "상속재산보다 채무가 많을 때, 상속을 아예 포기하거나 재산 범위 내에서만 채무를 부담하는 법적 절차.",
+      "documents": [
+        { "name": "상속포기·한정승인 신청서 (법원 양식)", "source": "법원 전자소송 내 양식", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "기본증명서 (피상속인)", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "가족관계증명서", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "주민등록등본 (신청인)", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "채무 확인서류 (채권자 통지서·금융거래내역 등)", "source": "각 채권기관", "link": null }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인 신청)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "피상속인 주소지 관할 가정법원 방문", "link": null },
+        { "name": "대한법률구조공단 (무료 상담)", "link": "https://www.klac.or.kr" }
+      ],
+      "notes": "반드시 상속 개시 안 날(사망 인지일)로부터 3개월 이내 신청. 기간 도과 시 단순승인으로 간주. 미성년 상속인은 법정대리인이 신청."
+    },
+    {
+      "id": "inheritance-tax",
+      "title": "상속세 신고",
+      "tag": "세금신고",
+      "description": "상속재산이 일정 금액 이상일 때 법정 기한 내 국세청에 신고·납부하는 세금.",
+      "documents": [
+        { "name": "상속세 신고서 (홈택스 양식)", "source": "홈택스", "link": "https://www.hometax.go.kr" },
+        { "name": "가족관계증명서 (상속인 전원)", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "피상속인 기본증명서", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "재산 목록 및 평가서류 (부동산·주식·예금 등)", "source": "각 기관", "link": null },
+        { "name": "채무 증빙서류 (있을 경우)", "source": "각 채권기관", "link": null }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 신고)", "link": "https://www.hometax.go.kr" },
+        { "name": "피상속인 주소지 관할 세무서 방문", "link": null }
+      ],
+      "notes": "신고 기간: 사망일로부터 6개월 이내 (해외 거주자 9개월). 5억원 이하는 기초공제 적용으로 납부 없는 경우 많음. 신고 자체는 의무."
+    },
+    {
+      "id": "gift-tax",
+      "title": "증여세 신고",
+      "tag": "세금신고",
+      "description": "타인으로부터 재산을 무상으로 받았을 때 신고·납부하는 세금.",
+      "documents": [
+        { "name": "증여세 신고서 (홈택스 양식)", "source": "홈택스", "link": "https://www.hometax.go.kr" },
+        { "name": "증여 계약서 또는 이체확인서", "source": "본인 보관 / 은행", "link": null },
+        { "name": "증여자·수증자 관계 서류 (가족관계증명서 등)", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "부동산의 경우 등기부등본", "source": "인터넷등기소", "link": "https://www.iros.go.kr" }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 신고)", "link": "https://www.hometax.go.kr" },
+        { "name": "수증자 주소지 관할 세무서 방문", "link": null }
+      ],
+      "notes": "신고 기간: 증여받은 달의 말일로부터 3개월 이내. 공제 한도: 배우자 6억, 직계존·비속 5천만원(미성년 2천만원), 기타 친족 1천만원 (10년 합산)."
+    }
+  ]
+}

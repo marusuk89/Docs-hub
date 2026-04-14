@@ -1,0 +1,452 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+  background: #f5f6f8;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+/* ── 헤더 ── */
+header {
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 0 24px;
+}
+
+.header-inner {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 56px;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 17px;
+  font-weight: 700;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.logo span {
+  color: #3b82f6;
+}
+
+/* ── 메인 컨테이너 ── */
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+/* ── 검색 ── */
+#search-wrapper {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+#search-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 2px solid #e8e8e8;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color 0.15s;
+  background: #fff;
+  font-family: inherit;
+}
+
+#search-input:focus {
+  border-color: #3b82f6;
+}
+
+#search-results {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  z-index: 100;
+  overflow: hidden;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background 0.1s;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+.search-result-item:hover {
+  background: #f8faff;
+}
+
+.search-result-icon {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.search-result-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.search-result-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-result-category {
+  font-size: 12px;
+  color: #888;
+}
+
+.search-empty {
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* ── 홈 페이지 ── */
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.page-desc {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 28px;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.category-card {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 24px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.category-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 2px 12px rgba(59, 130, 246, 0.1);
+}
+
+.category-icon {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.category-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.category-count {
+  font-size: 13px;
+  color: #888;
+}
+
+/* ── 브레드크럼 ── */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: #888;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: #3b82f6;
+}
+
+.breadcrumb .sep {
+  color: #ccc;
+}
+
+.breadcrumb .current {
+  color: #1a1a1a;
+  font-weight: 500;
+}
+
+/* ── 절차 목록 ── */
+.procedure-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.procedure-item {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.procedure-item.open {
+  border-color: #3b82f6;
+}
+
+.procedure-header {
+  display: flex;
+  align-items: center;
+  padding: 18px 20px;
+  cursor: pointer;
+  gap: 12px;
+  user-select: none;
+}
+
+.procedure-header:hover {
+  background: #fafafa;
+}
+
+.tag {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tag-필수     { background: #fee2e2; color: #dc2626; }
+.tag-권장     { background: #dbeafe; color: #2563eb; }
+.tag-강력권장 { background: #ede9fe; color: #7c3aed; }
+.tag-피해구제 { background: #fef3c7; color: #d97706; }
+.tag-기본확인 { background: #d1fae5; color: #059669; }
+.tag-분쟁해결 { background: #e0f2fe; color: #0284c7; }
+/* 법률 */
+.tag-채무구제 { background: #ede9fe; color: #7c3aed; }
+.tag-채권회수 { background: #d1fae5; color: #059669; }
+.tag-소송절차 { background: #dbeafe; color: #2563eb; }
+.tag-법적통보 { background: #fef3c7; color: #d97706; }
+.tag-피해신고 { background: #fee2e2; color: #dc2626; }
+/* 세금/금융 */
+.tag-정기신고 { background: #dbeafe; color: #2563eb; }
+.tag-수시납부 { background: #d1fae5; color: #059669; }
+.tag-자산조회 { background: #f0fdf4; color: #16a34a; }
+/* 복지 */
+.tag-지원신청 { background: #d1fae5; color: #059669; }
+.tag-취업지원 { background: #dbeafe; color: #2563eb; }
+.tag-긴급지원 { background: #fee2e2; color: #dc2626; }
+/* 민원서류 */
+.tag-온라인가능 { background: #d1fae5; color: #059669; }
+.tag-방문필수   { background: #fee2e2; color: #dc2626; }
+/* 상속/증여 */
+.tag-기한있음 { background: #fef3c7; color: #d97706; }
+.tag-세금신고 { background: #dbeafe; color: #2563eb; }
+
+.procedure-title {
+  font-size: 16px;
+  font-weight: 600;
+  flex: 1;
+}
+
+.procedure-desc-short {
+  font-size: 13px;
+  color: #888;
+  flex: 2;
+  display: none;
+}
+
+.chevron {
+  color: #aaa;
+  font-size: 14px;
+  transition: transform 0.2s;
+  flex-shrink: 0;
+}
+
+.procedure-item.open .chevron {
+  transform: rotate(180deg);
+}
+
+/* ── 상세 패널 ── */
+.procedure-detail {
+  display: none;
+  padding: 0 20px 20px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.procedure-item.open .procedure-detail {
+  display: block;
+}
+
+.detail-desc {
+  font-size: 14px;
+  color: #555;
+  padding: 14px 0 18px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.section-label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #888;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 16px 0 10px;
+}
+
+/* ── 서류 테이블 ── */
+.doc-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.doc-table th {
+  font-size: 12px;
+  color: #aaa;
+  font-weight: 500;
+  text-align: left;
+  padding: 6px 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.doc-table td {
+  font-size: 14px;
+  padding: 10px 10px;
+  border-bottom: 1px solid #f8f8f8;
+  vertical-align: middle;
+}
+
+.doc-table tr:last-child td {
+  border-bottom: none;
+}
+
+.doc-name {
+  font-weight: 500;
+}
+
+.doc-source {
+  color: #888;
+  font-size: 13px;
+}
+
+.link-btn {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #3b82f6;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 6px;
+  padding: 4px 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.link-btn:hover {
+  background: #dbeafe;
+}
+
+.no-link {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* ── 신청처 ── */
+.apply-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.apply-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  background: #3b82f6;
+  border-radius: 8px;
+  padding: 8px 14px;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.apply-btn:hover {
+  background: #2563eb;
+}
+
+.apply-btn.no-link-apply {
+  background: #f0f0f0;
+  color: #888;
+  cursor: default;
+}
+
+/* ── 참고사항 ── */
+.notes-box {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 13px;
+  color: #92400e;
+  margin-top: 16px;
+}
+
+.notes-box::before {
+  content: "참고  ";
+  font-weight: 700;
+}
+
+/* ── 반응형 ── */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 16px;
+  }
+
+  .procedure-desc-short {
+    display: none !important;
+  }
+
+  .doc-table th:nth-child(2),
+  .doc-table td:nth-child(2) {
+    display: none;
+  }
+}

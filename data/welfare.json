@@ -1,0 +1,106 @@
+{
+  "category": "복지 / 지원금",
+  "procedures": [
+    {
+      "id": "basic-livelihood",
+      "title": "기초생활수급자 신청",
+      "tag": "지원신청",
+      "description": "소득·재산이 기준 이하인 가구에 생계·의료·주거·교육급여를 지원하는 제도.",
+      "documents": [
+        { "name": "사회보장급여 신청서 (주민센터 비치)", "source": "주민센터 방문 수령", "link": null },
+        { "name": "금융정보 제공 동의서", "source": "주민센터 방문 수령", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "소득·재산 증빙서류 (근로계약서·임대계약서 등)", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "복지로 (온라인 신청)", "link": "https://www.bokjiro.go.kr" },
+        { "name": "주민센터 방문 신청", "link": null },
+        { "name": "복지로 모의계산 (자격 확인 먼저)", "link": "https://www.bokjiro.go.kr" }
+      ],
+      "notes": "부양의무자 기준 일부 폐지로 대상자 확대. 신청 후 조사까지 약 30일 소요. 급여 종류별 기준 상이."
+    },
+    {
+      "id": "housing-benefit",
+      "title": "주거급여 신청",
+      "tag": "지원신청",
+      "description": "저소득 임차가구에 월세를 지원하고, 자가가구에는 집수리 비용을 지원하는 제도.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "통장 사본 (임차인 명의)", "source": "본인 보관", "link": null },
+        { "name": "소득·재산 관련 서류", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "복지로 (온라인 신청)", "link": "https://www.bokjiro.go.kr" },
+        { "name": "마이홈포털 (LH)", "link": "https://www.myhome.go.kr" },
+        { "name": "주민센터 방문 신청", "link": null }
+      ],
+      "notes": "중위소득 48% 이하 가구 대상. 지역별 기준임대료 범위 내 실지급. 기초수급자는 자동 포함."
+    },
+    {
+      "id": "youth-rent",
+      "title": "청년 월세 한시 특별지원",
+      "tag": "지원신청",
+      "description": "만 19~34세 청년 독립가구에 월 최대 20만원씩 최대 12개월간 월세를 지원하는 제도.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "소득 증빙서류", "source": "홈택스 소득금액증명원", "link": "https://www.hometax.go.kr" },
+        { "name": "통장 사본", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "복지로 (온라인 신청)", "link": "https://www.bokjiro.go.kr" },
+        { "name": "주민센터 방문 신청", "link": null }
+      ],
+      "notes": "부모와 별도 거주 필수. 부모·본인 소득 기준 동시 충족 필요. 공고 시기 확인 후 신청."
+    },
+    {
+      "id": "employment-support",
+      "title": "국민취업지원제도 신청",
+      "tag": "취업지원",
+      "description": "취업이 어려운 청년·중장년층에게 취업지원 서비스와 함께 구직촉진수당을 지급하는 제도.",
+      "documents": [
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "소득 증빙서류 (해당 시)", "source": "홈택스", "link": "https://www.hometax.go.kr" },
+        { "name": "취업활동 계획서 (고용센터 작성)", "source": "고용센터 방문", "link": null }
+      ],
+      "apply": [
+        { "name": "고용24 (온라인 신청)", "link": "https://www.work24.go.kr" },
+        { "name": "고용복지플러스센터 방문", "link": null }
+      ],
+      "notes": "1유형: 구직촉진수당 월 50만원 × 6개월 지급. 2유형: 취업지원 서비스만 제공. 15~69세 신청 가능."
+    },
+    {
+      "id": "unemployment-benefit",
+      "title": "실업급여 신청",
+      "tag": "취업지원",
+      "description": "고용보험 가입 후 비자발적으로 퇴직한 경우 일정 기간 급여를 지급받는 제도.",
+      "documents": [
+        { "name": "이직확인서 (전 직장 발급)", "source": "전 직장에 요청 / 고용24 확인", "link": "https://www.work24.go.kr" },
+        { "name": "수급자격인정신청서", "source": "고용24 또는 고용센터 비치", "link": "https://www.work24.go.kr" },
+        { "name": "신분증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "고용24 (수급자격 신청)", "link": "https://www.work24.go.kr" },
+        { "name": "고용복지플러스센터 방문", "link": null }
+      ],
+      "notes": "퇴직 후 12개월 이내 신청해야 함. 수급 기간은 고용보험 가입 기간·나이에 따라 120~270일. 매 2주마다 구직활동 신고 필요."
+    },
+    {
+      "id": "emergency-welfare",
+      "title": "긴급복지지원 신청",
+      "tag": "긴급지원",
+      "description": "갑작스러운 위기 상황(실직·질병·이혼·재난 등)으로 생계 유지가 곤란한 경우 신속히 지원받는 제도.",
+      "documents": [
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "위기사유 증빙서류 (진단서·해고통보서 등 해당 시)", "source": "각 기관", "link": null }
+      ],
+      "apply": [
+        { "name": "보건복지상담센터 129 (전화 신청)", "link": null },
+        { "name": "복지로 (온라인 신청)", "link": "https://www.bokjiro.go.kr" },
+        { "name": "주민센터 방문 신청", "link": null }
+      ],
+      "notes": "심사 없이 우선 지원 후 사후 조사. 생계·의료·주거·사회서비스 등 지원. 위기 상황이면 먼저 129 전화."
+    }
+  ]
+}

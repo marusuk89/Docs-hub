@@ -1,0 +1,122 @@
+{
+  "category": "법률 / 소송",
+  "procedures": [
+    {
+      "id": "personal-rehabilitation",
+      "title": "개인회생 신청",
+      "tag": "채무구제",
+      "description": "과도한 채무로 정상적인 변제가 어려운 개인이 법원의 감독 하에 일부를 분할 상환하고 나머지를 면제받는 절차.",
+      "documents": [
+        { "name": "채무자 목록 (채권자 목록)", "source": "본인 작성", "link": null },
+        { "name": "재산 목록", "source": "본인 작성", "link": null },
+        { "name": "수입·지출 목록", "source": "본인 작성", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "소득금액증명원", "source": "홈택스", "link": "https://www.hometax.go.kr" },
+        { "name": "건강보험료 납부확인서", "source": "국민건강보험공단", "link": "https://www.nhis.or.kr" },
+        { "name": "금융거래 확인서 (채무 증빙)", "source": "각 금융기관", "link": null }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "대한법률구조공단 (무료 지원)", "link": "https://www.klac.or.kr" }
+      ],
+      "notes": "신청 전 법률구조공단 무료 상담 권장. 변제 기간은 통상 3년 (최장 5년). 신청 즉시 강제집행·추심 중단."
+    },
+    {
+      "id": "personal-bankruptcy",
+      "title": "개인파산 신청",
+      "tag": "채무구제",
+      "description": "변제 능력이 전혀 없는 경우 법원에 파산을 신청하고 면책을 받아 채무를 소멸시키는 절차.",
+      "documents": [
+        { "name": "채권자 목록", "source": "본인 작성", "link": null },
+        { "name": "재산 목록", "source": "본인 작성", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "소득금액증명원 또는 사실증명", "source": "홈택스", "link": "https://www.hometax.go.kr" },
+        { "name": "금융정보 (예금·보험·대출 내역)", "source": "어카운트인포", "link": "https://www.accountinfo.or.kr" }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "대한법률구조공단 (무료 지원)", "link": "https://www.klac.or.kr" }
+      ],
+      "notes": "파산 선고 후 면책 결정까지 통상 6개월~1년. 면책 확정 시 모든 채무 소멸. 일부 채무(세금·양육비 등)는 면책 제외."
+    },
+    {
+      "id": "rehabilitation-claim",
+      "title": "회생채권 신고 (채권자)",
+      "tag": "채권회수",
+      "description": "채무자가 회생절차를 신청한 경우, 채권자로서 법원에 채권을 신고하여 변제를 받을 수 있도록 하는 절차.",
+      "documents": [
+        { "name": "채권신고서 (법원 양식)", "source": "법원 전자소송 내 양식 다운로드", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "채권 증빙서류 (계약서·판결문·차용증 등)", "source": "본인 보관", "link": null },
+        { "name": "신분증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "해당 사건 담당 법원 방문", "link": null }
+      ],
+      "notes": "신고 기간(법원 통지 기준)을 반드시 지켜야 함. 기간 내 미신고 시 변제 순위에서 제외될 수 있음."
+    },
+    {
+      "id": "payment-order",
+      "title": "지급명령 신청",
+      "tag": "채권회수",
+      "description": "금전 채권을 빠르게 회수하기 위한 간이 절차. 상대방이 이의 없으면 확정판결과 동일한 효력.",
+      "documents": [
+        { "name": "지급명령 신청서", "source": "법원 전자소송 내 작성", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "채권 증빙서류 (계약서·차용증·이체내역 등)", "source": "본인 보관", "link": null },
+        { "name": "상대방 주소 확인 서류", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인)", "link": "https://ecfs.scourt.go.kr" }
+      ],
+      "notes": "인지대가 일반 소송의 1/10 수준. 청구금액 제한 없음. 상대방 이의 시 자동으로 소송으로 전환."
+    },
+    {
+      "id": "small-claims",
+      "title": "소액사건 심판 신청",
+      "tag": "소송절차",
+      "description": "3,000만원 이하 금전 분쟁을 간편하게 해결하는 민사소송 절차. 1회 심리로 판결 가능.",
+      "documents": [
+        { "name": "소장 (법원 양식)", "source": "법원 전자소송 내 작성", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "증거서류 (계약서·영수증·문자 등)", "source": "본인 보관", "link": null },
+        { "name": "상대방 인적사항", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "관할 지방법원 민원실 방문", "link": null }
+      ],
+      "notes": "변호사 없이 본인이 직접 진행 가능. 판사가 적극적으로 조정·화해를 권고하는 편."
+    },
+    {
+      "id": "content-certified-mail",
+      "title": "내용증명 발송",
+      "tag": "법적통보",
+      "description": "어떤 내용의 문서를 언제 보냈는지 우체국이 공식 확인해주는 제도. 법적 의사표시의 증거로 활용.",
+      "documents": [
+        { "name": "내용증명 문서 3부 (동일한 것)", "source": "본인 작성 (A4 출력)", "link": null },
+        { "name": "신분증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "인터넷우체국 (온라인 발송)", "link": "https://ipost.post.go.kr" },
+        { "name": "우체국 창구 방문 발송", "link": null }
+      ],
+      "notes": "보낸 사람·받는 사람·우체국이 각 1부씩 보관. 분쟁 시 법원에서 증거로 인정됨. 반드시 등기로 발송."
+    },
+    {
+      "id": "criminal-complaint",
+      "title": "형사 고소장 접수",
+      "tag": "피해신고",
+      "description": "범죄 피해를 입었을 때 수사기관에 범인의 처벌을 요청하는 공식 절차.",
+      "documents": [
+        { "name": "고소장 (본인 작성)", "source": "본인 작성 (양식 무관)", "link": null },
+        { "name": "피해 증거자료 (문자·사진·영상·계약서 등)", "source": "본인 보관", "link": null },
+        { "name": "신분증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "사이버경찰청 (온라인 접수)", "link": "https://ecrm.police.go.kr" },
+        { "name": "관할 경찰서 민원실 방문", "link": null },
+        { "name": "검찰청 직접 고소 (중요 사건)", "link": "https://www.spo.go.kr" }
+      ],
+      "notes": "고소 기간은 범죄 인지 후 6개월 이내 (일부 범죄 예외). 온라인 사기의 경우 사이버경찰청 이용이 편리."
+    }
+  ]
+}

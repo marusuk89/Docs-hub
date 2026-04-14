@@ -1,0 +1,97 @@
+{
+  "category": "세금 / 금융",
+  "procedures": [
+    {
+      "id": "income-tax",
+      "title": "종합소득세 신고",
+      "tag": "정기신고",
+      "description": "근로소득 외 사업소득·임대소득·금융소득 등이 있는 경우 매년 5월에 신고하는 세금.",
+      "documents": [
+        { "name": "소득 관련 서류 (사업장 장부·임대계약서 등)", "source": "본인 보관", "link": null },
+        { "name": "금융소득 지급명세서", "source": "각 금융기관 또는 홈택스 조회", "link": "https://www.hometax.go.kr" },
+        { "name": "공제 증빙서류 (의료비·교육비·기부금 등)", "source": "각 기관 / 홈택스 간소화", "link": "https://www.hometax.go.kr" }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 신고)", "link": "https://www.hometax.go.kr" },
+        { "name": "세무서 방문 신고", "link": null },
+        { "name": "세금신고 도움서비스 (홈택스 내)", "link": "https://www.hometax.go.kr" }
+      ],
+      "notes": "신고 기간: 매년 5월 1일~5월 31일. 성실신고 대상자는 6월 30일까지. 무신고 시 가산세 부과."
+    },
+    {
+      "id": "year-end-settlement",
+      "title": "연말정산",
+      "tag": "정기신고",
+      "description": "근로자가 한 해 동안 납부한 세금을 정산하여 과납분은 환급받고 부족분은 추가 납부하는 절차.",
+      "documents": [
+        { "name": "간소화서비스 자료 (의료비·보험료·교육비 등)", "source": "홈택스 연말정산 간소화", "link": "https://www.hometax.go.kr" },
+        { "name": "주택관련 서류 (월세·주택자금 등 해당 시)", "source": "임대계약서·금융기관", "link": null },
+        { "name": "부양가족 관련 서류 (해당 시)", "source": "정부24", "link": "https://www.gov.kr" }
+      ],
+      "apply": [
+        { "name": "홈택스 연말정산 간소화 (자료 제공)", "link": "https://www.hometax.go.kr" },
+        { "name": "회사 HR·경리 부서 제출", "link": null }
+      ],
+      "notes": "매년 1월 15일부터 간소화서비스 오픈. 2월 급여에서 정산. 근로자는 회사를 통해 진행."
+    },
+    {
+      "id": "vat",
+      "title": "부가가치세 신고",
+      "tag": "정기신고",
+      "description": "사업자가 재화·용역 공급 시 부과되는 세금을 신고·납부하는 절차.",
+      "documents": [
+        { "name": "세금계산서 합계표", "source": "홈택스 전자세금계산서 조회", "link": "https://www.hometax.go.kr" },
+        { "name": "매입·매출 장부", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "홈택스 (온라인 신고)", "link": "https://www.hometax.go.kr" },
+        { "name": "세무서 방문 신고", "link": null }
+      ],
+      "notes": "일반과세자: 1기(1~6월) → 7월 신고, 2기(7~12월) → 다음해 1월 신고. 간이과세자: 연 1회 1월 신고."
+    },
+    {
+      "id": "local-tax",
+      "title": "지방세 납부 / 조회",
+      "tag": "수시납부",
+      "description": "재산세·자동차세·취득세 등 지방자치단체에 납부하는 세금을 조회·납부하는 절차.",
+      "documents": [
+        { "name": "납세고지서 (우편 또는 전자고지)", "source": "위택스 또는 우편 수령", "link": "https://www.wetax.go.kr" }
+      ],
+      "apply": [
+        { "name": "위택스 (온라인 납부)", "link": "https://www.wetax.go.kr" },
+        { "name": "지방자치단체 세무과 방문", "link": null },
+        { "name": "ARS 납부 (1588-2477)", "link": null }
+      ],
+      "notes": "재산세: 7월·9월 / 자동차세: 6월·12월 / 취득세: 취득일로부터 60일 이내. 카드 무이자 할부 가능."
+    },
+    {
+      "id": "finance-overview",
+      "title": "금융거래 통합조회",
+      "tag": "자산조회",
+      "description": "본인 명의의 예금·적금·보험·대출·카드 등 모든 금융정보를 한 번에 조회하는 서비스.",
+      "documents": [
+        { "name": "본인 인증 수단 (공동인증서·휴대폰 인증)", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "어카운트인포 (은행연합회)", "link": "https://www.accountinfo.or.kr" },
+        { "name": "금융감독원 금융소비자정보포털", "link": "https://consumer.fss.or.kr" }
+      ],
+      "notes": "사망자 금융거래 조회는 '안심상속 원스톱 서비스'(정부24) 이용. 휴면계금 조회는 어카운트인포 내 제공."
+    },
+    {
+      "id": "credit-check",
+      "title": "신용등급 / 채무 조회",
+      "tag": "자산조회",
+      "description": "본인의 신용점수·연체 정보·채무 현황을 조회하는 서비스.",
+      "documents": [
+        { "name": "본인 인증 수단", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "NICE 나이스지키미", "link": "https://www.nicecheckup.com" },
+        { "name": "KCB 올크레딧", "link": "https://www.allcredit.co.kr" },
+        { "name": "카카오뱅크·토스 앱 내 무료 조회", "link": null }
+      ],
+      "notes": "연 1회 무료 조회 가능 (NICE·KCB 각각). 조회 자체는 신용점수에 영향 없음."
+    }
+  ]
+}

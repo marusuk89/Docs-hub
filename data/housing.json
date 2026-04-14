@@ -1,0 +1,121 @@
+{
+  "category": "주거 / 부동산",
+  "procedures": [
+    {
+      "id": "move-in",
+      "title": "전입신고",
+      "tag": "필수",
+      "description": "새로운 주소지로 이사한 후 14일 이내에 거주지를 신고하는 절차. 미신고 시 과태료 부과.",
+      "documents": [
+        { "name": "신분증", "source": "본인 보관", "link": null },
+        { "name": "임대차계약서 (전세·월세의 경우)", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "정부24 온라인 신청", "link": "https://www.gov.kr" },
+        { "name": "주민센터 방문 신청", "link": null }
+      ],
+      "notes": "이사 후 14일 이내 신고. 전입신고와 함께 확정일자도 같이 받는 것을 권장."
+    },
+    {
+      "id": "fixed-date",
+      "title": "확정일자 받기",
+      "tag": "권장",
+      "description": "임대차계약서에 법적 날짜를 확인받아 보증금 보호 우선순위를 확보하는 절차.",
+      "documents": [
+        { "name": "임대차계약서 원본", "source": "본인 보관", "link": null },
+        { "name": "신분증", "source": "본인 보관", "link": null }
+      ],
+      "apply": [
+        { "name": "주민센터 방문 (무료)", "link": null },
+        { "name": "인터넷등기소 온라인 신청", "link": "https://www.iros.go.kr" },
+        { "name": "공증사무소 방문 (유료)", "link": null }
+      ],
+      "notes": "전입신고와 확정일자를 모두 마쳐야 대항력과 우선변제권이 생긴다."
+    },
+    {
+      "id": "deposit-insurance",
+      "title": "전세보증보험 신청",
+      "tag": "강력권장",
+      "description": "전세 계약 만료 시 임대인이 보증금을 돌려주지 못할 경우 보증기관이 대신 지급해주는 보험.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "전입세대확인서", "source": "정부24 또는 주민센터", "link": "https://www.gov.kr" },
+        { "name": "등기부등본 (건물·토지)", "source": "인터넷등기소", "link": "https://www.iros.go.kr" },
+        { "name": "확정일자 부여 확인서류", "source": "주민센터 또는 인터넷등기소", "link": "https://www.iros.go.kr" },
+        { "name": "보증금 이체확인증", "source": "본인 은행 앱·인터넷뱅킹", "link": null }
+      ],
+      "apply": [
+        { "name": "HUG 주택도시보증공사", "link": "https://www.khug.or.kr" },
+        { "name": "SGI 서울보증보험", "link": "https://www.sgic.co.kr" }
+      ],
+      "notes": "가입 가능 기간은 계약 기간의 절반이 지나기 전까지. 조건(집값 대비 보증금 비율 등)에 따라 가입 거절될 수 있음."
+    },
+    {
+      "id": "lease-registration",
+      "title": "임차권등기명령 신청",
+      "tag": "피해구제",
+      "description": "전세 계약 만료 후 보증금을 돌려받지 못했을 때, 등기부에 임차 사실을 기록해 권리를 보호하는 법적 절차.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" },
+        { "name": "등기부등본", "source": "인터넷등기소", "link": "https://www.iros.go.kr" },
+        { "name": "확정일자 부여 확인서류", "source": "주민센터 또는 인터넷등기소", "link": "https://www.iros.go.kr" },
+        { "name": "임대차계약 종료 증빙 (내용증명 등)", "source": "우체국 인터넷우체국", "link": "https://www.epost.go.kr" }
+      ],
+      "apply": [
+        { "name": "법원 전자소송 (온라인 접수)", "link": "https://ecfs.scourt.go.kr" },
+        { "name": "해당 부동산 관할 지방법원 방문", "link": null }
+      ],
+      "notes": "계약 만료 후 즉시 신청 가능. 신청 후 대항력·우선변제권이 유지됨 (이사 나가도 권리 유지)."
+    },
+    {
+      "id": "registry-document",
+      "title": "등기부등본 열람 / 발급",
+      "tag": "기본확인",
+      "description": "부동산의 소유자, 근저당, 압류 여부 등 권리관계를 확인할 수 있는 공식 문서.",
+      "documents": [
+        { "name": "부동산 주소 (지번 또는 도로명)", "source": "계약서·네이버지도 등 확인", "link": null }
+      ],
+      "apply": [
+        { "name": "인터넷등기소 온라인 열람 (700원)", "link": "https://www.iros.go.kr" },
+        { "name": "무인발급기 (법원·주민센터 등)", "link": null }
+      ],
+      "notes": "계약 전, 잔금 당일 두 번 확인 권장. 근저당 설정 금액 + 보증금이 집값의 70~80% 이하인지 체크."
+    },
+    {
+      "id": "fraud-report",
+      "title": "전세사기 피해 신고",
+      "tag": "피해구제",
+      "description": "전세사기로 피해를 입은 경우 공식 지원기관에 피해를 접수하고 법적·금융 지원을 받는 절차.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "피해 관련 증거자료 (문자·이체내역 등)", "source": "본인 보관", "link": null },
+        { "name": "등기부등본", "source": "인터넷등기소", "link": "https://www.iros.go.kr" },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" }
+      ],
+      "apply": [
+        { "name": "전세사기피해지원센터 (LH)", "link": "https://www.lh.or.kr" },
+        { "name": "경찰청 전세사기 신고 (사이버경찰청)", "link": "https://ecrm.police.go.kr" },
+        { "name": "대한법률구조공단 (무료 법률상담)", "link": "https://www.klac.or.kr" }
+      ],
+      "notes": "피해 확인 후 긴급 주거지원(LH 임시주택), 경매 유예, 저금리 대출 등 지원 가능."
+    },
+    {
+      "id": "dispute-mediation",
+      "title": "주택임대차 분쟁조정 신청",
+      "tag": "분쟁해결",
+      "description": "임대인과의 보증금 반환, 수선 의무 등 분쟁을 소송 없이 조정으로 해결하는 절차.",
+      "documents": [
+        { "name": "임대차계약서 사본", "source": "본인 보관", "link": null },
+        { "name": "분쟁 관련 증거자료 (문자·사진 등)", "source": "본인 보관", "link": null },
+        { "name": "주민등록등본", "source": "정부24", "link": "https://www.gov.kr" }
+      ],
+      "apply": [
+        { "name": "주택임대차분쟁조정위원회 (법무부)", "link": "https://www.hdc.go.kr" },
+        { "name": "한국토지주택공사(LH) 분쟁조정센터", "link": "https://www.lh.or.kr" }
+      ],
+      "notes": "조정 신청 시 비용 없음. 조정 성립 시 법원 판결과 동일한 효력."
+    }
+  ]
+}
